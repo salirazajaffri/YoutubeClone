@@ -238,6 +238,31 @@
     width: 30px;
     margin-right: 10px;
   }
+  .tabsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 30px;
+    width: auto;
+    margin-bottom: 30px;
+
+  }
+  .tabs{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    height: 15px;
+    width: auto;
+    align-self: center;
+    padding: 12px;
+  }
+  .blackTab{
+    background-color:#030303;
+    color: #ddd;
+  }
+  .whiteText{
+    color: #ddd;
+  }
 
   
    
