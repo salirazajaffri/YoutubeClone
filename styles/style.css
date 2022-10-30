@@ -263,6 +263,50 @@
   .whiteText{
     color: #ddd;
   }
+  .addsContainer{
+    height: 300;
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-self: center; */
+  }
+  .leftAddContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: brown;
+    height: 100%;
+    width: 20%;
+  }
+  .rightAddContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:burlywood;
+    height: 100%;
+    width: 40%;
+  }
+  .addContainer{
+    display: flex;
+    flex-direction: row;
+    /* padding: 100px; */
+    /* margin: 100px; */
+    background-color: chocolate;
+    height: 50%;
+    width: 100%;
+    border: 2px solid violet;
+  }
+  .addContainer img{
+    /* object-fit: cover; */
+    background-image:cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+  }
 
   
    
